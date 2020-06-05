@@ -26,12 +26,12 @@ spring:
     #password: 123456
 
 
-  #h2:
-  #  console:
-  #    settings:
-  #      web-allow-others: false
-  #    path: /h2-console
-  #    enabled: false
+    #h2:
+    #  console:
+    #    settings:
+    #      web-allow-others: false
+    #    path: /h2-console
+    #    enabled: false
   jpa:
     hibernate:
       ddl-auto: update
