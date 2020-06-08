@@ -40,7 +40,6 @@
         <jartar.mail.version>1.6.5</jartar.mail.version>
         <lombok.version>1.18.12</lombok.version>
         <mysql.connector.version>8.0.14</mysql.connector.version>
-
     </properties>
 
     <dependencies>
@@ -84,7 +83,6 @@
             <groupId>com.upyun</groupId>
             <artifactId>java-sdk</artifactId>
             <version>4.2.0</version>
-            <scope>runtime</scope>
             <exclusions>
                 <exclusion>
                     <artifactId>slf4j-log4j12</artifactId>
@@ -256,7 +254,6 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-actuator</artifactId>
                 <version>${springboot.version}</version>
-                <scope>runtime</scope>
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -284,7 +281,6 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-data-jpa</artifactId>
                 <version>${springboot.version}</version>
-                <scope>runtime</scope>
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -312,7 +308,6 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-web</artifactId>
                 <version>${springboot.version}</version>
-                <scope>runtime</scope>
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -340,7 +335,6 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-undertow</artifactId>
                 <version>${springboot.version}</version>
-                <scope>runtime</scope>
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -368,7 +362,6 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-freemarker</artifactId>
                 <version>${springboot.version}</version>
-                <scope>runtime</scope>
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -396,7 +389,6 @@
                 <groupId>com.sun.mail</groupId>
                 <artifactId>jakarta.mail</artifactId>
                 <version>${jartar.mail.version}</version>
-                <scope>runtime</scope>
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -424,7 +416,6 @@
                 <groupId>cn.hutool</groupId>
                 <artifactId>hutool-core</artifactId>
                 <version>${hutool.version}</version>
-                <scope>runtime</scope>
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -452,7 +443,6 @@
                 <groupId>cn.hutool</groupId>
                 <artifactId>hutool-crypto</artifactId>
                 <version>${hutool.version}</version>
-                <scope>runtime</scope>
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -480,91 +470,6 @@
                 <groupId>cn.hutool</groupId>
                 <artifactId>hutool-extra</artifactId>
                 <version>${hutool.version}</version>
-                <scope>runtime</scope>
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-            <dependency>
-                <groupId>cn.hutool</groupId>
-                <artifactId>hutool-core</artifactId>
-                <version>5.3.3</version>
-                <scope>runtime</scope>
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-            <dependency>
-                <groupId>cn.hutool</groupId>
-                <artifactId>hutool-crypto</artifactId>
-                <version>5.3.3</version>
-                <scope>runtime</scope>
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-            <dependency>
-                <groupId>cn.hutool</groupId>
-                <artifactId>hutool-extra</artifactId>
-                <version>5.3.3</version>
-                <scope>runtime</scope>
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -592,7 +497,6 @@
                 <groupId>com.upyun</groupId>
                 <artifactId>java-sdk</artifactId>
                 <version>${upyun.version}</version>
-                <scope>runtime</scope>
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -620,7 +524,6 @@
                 <groupId>com.qiniu</groupId>
                 <artifactId>qiniu-java-sdk</artifactId>
                 <version>${qiniu.version}</version>
-                <scope>runtime</scope>
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -648,7 +551,6 @@
                 <groupId>com.aliyun.oss</groupId>
                 <artifactId>aliyun-sdk-oss</artifactId>
                 <version>${aliyun.version}</version>
-                <scope>runtime</scope>
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -676,7 +578,6 @@
                 <groupId>com.baidubce</groupId>
                 <artifactId>bce-java-sdk</artifactId>
                 <version>${baidubce.version}</version>
-                <scope>runtime</scope>
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -704,7 +605,6 @@
                 <groupId>com.qcloud</groupId>
                 <artifactId>cos_api</artifactId>
                 <version>${qcloud.version}</version>
-                <scope>runtime</scope>
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -732,7 +632,7 @@
                 <groupId>com.huaweicloud</groupId>
                 <artifactId>esdk-obs-java</artifactId>
                 <version>${huaweiyun.version}</version>
-                <scope>runtime</scope>
+                
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -760,7 +660,7 @@
                 <groupId>io.springfox</groupId>
                 <artifactId>springfox-swagger2</artifactId>
                 <version>${swagger.version}</version>
-                <scope>runtime</scope>
+                
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -788,7 +688,7 @@
                 <groupId>io.springfox</groupId>
                 <artifactId>springfox-swagger-ui</artifactId>
                 <version>${swagger.version}</version>
-                <scope>runtime</scope>
+                
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -816,7 +716,7 @@
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-lang3</artifactId>
                 <version>${commons.lang3.version}</version>
-                <scope>runtime</scope>
+                
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -844,7 +744,7 @@
                 <groupId>org.apache.httpcomponents</groupId>
                 <artifactId>httpclient</artifactId>
                 <version>${httpclient.version}</version>
-                <scope>runtime</scope>
+                
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -872,7 +772,7 @@
                 <groupId>com.fasterxml.jackson.dataformat</groupId>
                 <artifactId>jackson-dataformat-yaml</artifactId>
                 <version>${dataformatyml.version}</version>
-                <scope>runtime</scope>
+                
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -900,7 +800,7 @@
                 <groupId>org.eclipse.jgit</groupId>
                 <artifactId>org.eclipse.jgit</artifactId>
                 <version>${jgit.version}</version>
-                <scope>runtime</scope>
+                
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -928,7 +828,7 @@
                 <groupId>com.google.code.findbugs</groupId>
                 <artifactId>annotations</artifactId>
                 <version>${annotations.version}</version>
-                <scope>runtime</scope>
+                
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -956,7 +856,7 @@
                 <groupId>com.vladsch.flexmark</groupId>
                 <artifactId>flexmark</artifactId>
                 <version>${flexmark.version}</version>
-                <scope>runtime</scope>
+                
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -984,7 +884,7 @@
                 <groupId>com.vladsch.flexmark</groupId>
                 <artifactId>flexmark-ext-attributes</artifactId>
                 <version>${flexmark.version}</version>
-                <scope>runtime</scope>
+                
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -1012,7 +912,7 @@
                 <groupId>com.vladsch.flexmark</groupId>
                 <artifactId>flexmark-ext-autolink</artifactId>
                 <version>${flexmark.version}</version>
-                <scope>runtime</scope>
+                
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -1040,7 +940,7 @@
                 <groupId>com.vladsch.flexmark</groupId>
                 <artifactId>flexmark-ext-emoji</artifactId>
                 <version>${flexmark.version}</version>
-                <scope>runtime</scope>
+                
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -1068,7 +968,7 @@
                 <groupId>com.vladsch.flexmark</groupId>
                 <artifactId>flexmark-ext-escaped-character</artifactId>
                 <version>${flexmark.version}</version>
-                <scope>runtime</scope>
+                
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -1096,7 +996,7 @@
                 <groupId>com.vladsch.flexmark</groupId>
                 <artifactId>flexmark-ext-gfm-strikethrough</artifactId>
                 <version>${flexmark.version}</version>
-                <scope>runtime</scope>
+                
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -1124,7 +1024,7 @@
                 <groupId>com.vladsch.flexmark</groupId>
                 <artifactId>flexmark-ext-gfm-tasklist</artifactId>
                 <version>${flexmark.version}</version>
-                <scope>runtime</scope>
+                
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -1152,7 +1052,7 @@
                 <groupId>com.vladsch.flexmark</groupId>
                 <artifactId>flexmark-ext-ins</artifactId>
                 <version>${flexmark.version}</version>
-                <scope>runtime</scope>
+                
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -1180,7 +1080,7 @@
                 <groupId>com.vladsch.flexmark</groupId>
                 <artifactId>flexmark-ext-media-tags</artifactId>
                 <version>${flexmark.version}</version>
-                <scope>runtime</scope>
+                
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -1208,7 +1108,7 @@
                 <groupId>com.vladsch.flexmark</groupId>
                 <artifactId>flexmark-ext-tables</artifactId>
                 <version>${flexmark.version}</version>
-                <scope>runtime</scope>
+                
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -1236,7 +1136,7 @@
                 <groupId>com.vladsch.flexmark</groupId>
                 <artifactId>flexmark-ext-toc</artifactId>
                 <version>${flexmark.version}</version>
-                <scope>runtime</scope>
+                
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -1264,7 +1164,7 @@
                 <groupId>com.vladsch.flexmark</groupId>
                 <artifactId>flexmark-ext-superscript</artifactId>
                 <version>${flexmark.version}</version>
-                <scope>runtime</scope>
+                
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -1292,7 +1192,7 @@
                 <groupId>com.vladsch.flexmark</groupId>
                 <artifactId>flexmark-ext-yaml-front-matter</artifactId>
                 <version>${flexmark.version}</version>
-                <scope>runtime</scope>
+                
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -1320,7 +1220,7 @@
                 <groupId>com.vladsch.flexmark</groupId>
                 <artifactId>flexmark-ext-gitlab</artifactId>
                 <version>${flexmark.version}</version>
-                <scope>runtime</scope>
+                
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -1348,7 +1248,7 @@
                 <groupId>net.coobird</groupId>
                 <artifactId>thumbnailator</artifactId>
                 <version>${thunmnailator.version}</version>
-                <scope>runtime</scope>
+                
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -1376,7 +1276,7 @@
                 <groupId>net.sf.image4j</groupId>
                 <artifactId>image4j</artifactId>
                 <version>${image4j.version}</version>
-                <scope>runtime</scope>
+                
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -1404,7 +1304,7 @@
                 <groupId>org.flywaydb</groupId>
                 <artifactId>flyway-core</artifactId>
                 <version>${flyaway.version}</version>
-                <scope>runtime</scope>
+                
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -1432,7 +1332,7 @@
                 <groupId>com.google.zxing</groupId>
                 <artifactId>core</artifactId>
                 <version>${zxing.version}</version>
-                <scope>runtime</scope>
+                
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -1460,7 +1360,7 @@
                 <groupId>org.iq80.leveldb</groupId>
                 <artifactId>leveldb</artifactId>
                 <version>${levelDb.version}</version>
-                <scope>runtime</scope>
+                
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -1488,7 +1388,7 @@
                 <groupId>redis.clients</groupId>
                 <artifactId>jedis</artifactId>
                 <version>${jedis.version}</version>
-                <scope>runtime</scope>
+                
                 <exclusions>
                     <exclusion>
                         <artifactId>slf4j-log4j12</artifactId>
@@ -1522,7 +1422,7 @@
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
                 <version>${mysql.connector.version}</version>
-                <scope>runtime</scope>
+                
             </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
