@@ -121,7 +121,7 @@
         <dependency>
             <groupId>com.qcloud</groupId>
             <artifactId>cos_api</artifactId>
-    </dependency>
+        </dependency>
         <dependency>
             <groupId>com.huaweicloud</groupId>
             <artifactId>esdk-obs-java</artifactId>
@@ -254,1163 +254,211 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-actuator</artifactId>
                 <version>${springboot.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-data-jpa</artifactId>
                 <version>${springboot.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-web</artifactId>
                 <version>${springboot.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-undertow</artifactId>
                 <version>${springboot.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-freemarker</artifactId>
                 <version>${springboot.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>com.sun.mail</groupId>
                 <artifactId>jakarta.mail</artifactId>
                 <version>${jartar.mail.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>cn.hutool</groupId>
                 <artifactId>hutool-core</artifactId>
                 <version>${hutool.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>cn.hutool</groupId>
                 <artifactId>hutool-crypto</artifactId>
                 <version>${hutool.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>cn.hutool</groupId>
                 <artifactId>hutool-extra</artifactId>
                 <version>${hutool.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>com.upyun</groupId>
                 <artifactId>java-sdk</artifactId>
                 <version>${upyun.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>com.qiniu</groupId>
                 <artifactId>qiniu-java-sdk</artifactId>
                 <version>${qiniu.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>com.aliyun.oss</groupId>
                 <artifactId>aliyun-sdk-oss</artifactId>
                 <version>${aliyun.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>com.baidubce</groupId>
                 <artifactId>bce-java-sdk</artifactId>
                 <version>${baidubce.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>com.qcloud</groupId>
                 <artifactId>cos_api</artifactId>
                 <version>${qcloud.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>com.huaweicloud</groupId>
                 <artifactId>esdk-obs-java</artifactId>
                 <version>${huaweiyun.version}</version>
-                
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>io.springfox</groupId>
                 <artifactId>springfox-swagger2</artifactId>
                 <version>${swagger.version}</version>
-                
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>io.springfox</groupId>
                 <artifactId>springfox-swagger-ui</artifactId>
                 <version>${swagger.version}</version>
-                
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-lang3</artifactId>
                 <version>${commons.lang3.version}</version>
-                
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.apache.httpcomponents</groupId>
                 <artifactId>httpclient</artifactId>
                 <version>${httpclient.version}</version>
-                
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>com.fasterxml.jackson.dataformat</groupId>
                 <artifactId>jackson-dataformat-yaml</artifactId>
                 <version>${dataformatyml.version}</version>
-                
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.eclipse.jgit</groupId>
                 <artifactId>org.eclipse.jgit</artifactId>
                 <version>${jgit.version}</version>
-                
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>com.google.code.findbugs</groupId>
                 <artifactId>annotations</artifactId>
                 <version>${annotations.version}</version>
-                
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>com.vladsch.flexmark</groupId>
                 <artifactId>flexmark</artifactId>
                 <version>${flexmark.version}</version>
-                
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>com.vladsch.flexmark</groupId>
                 <artifactId>flexmark-ext-attributes</artifactId>
                 <version>${flexmark.version}</version>
-                
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>com.vladsch.flexmark</groupId>
                 <artifactId>flexmark-ext-autolink</artifactId>
                 <version>${flexmark.version}</version>
-                
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>com.vladsch.flexmark</groupId>
                 <artifactId>flexmark-ext-emoji</artifactId>
                 <version>${flexmark.version}</version>
-                
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>com.vladsch.flexmark</groupId>
                 <artifactId>flexmark-ext-escaped-character</artifactId>
                 <version>${flexmark.version}</version>
-                
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>com.vladsch.flexmark</groupId>
                 <artifactId>flexmark-ext-gfm-strikethrough</artifactId>
                 <version>${flexmark.version}</version>
-                
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>com.vladsch.flexmark</groupId>
                 <artifactId>flexmark-ext-gfm-tasklist</artifactId>
                 <version>${flexmark.version}</version>
-                
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>com.vladsch.flexmark</groupId>
                 <artifactId>flexmark-ext-ins</artifactId>
                 <version>${flexmark.version}</version>
-                
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>com.vladsch.flexmark</groupId>
                 <artifactId>flexmark-ext-media-tags</artifactId>
                 <version>${flexmark.version}</version>
-                
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>com.vladsch.flexmark</groupId>
                 <artifactId>flexmark-ext-tables</artifactId>
                 <version>${flexmark.version}</version>
-                
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>com.vladsch.flexmark</groupId>
                 <artifactId>flexmark-ext-toc</artifactId>
                 <version>${flexmark.version}</version>
-                
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>com.vladsch.flexmark</groupId>
                 <artifactId>flexmark-ext-superscript</artifactId>
                 <version>${flexmark.version}</version>
-                
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>com.vladsch.flexmark</groupId>
                 <artifactId>flexmark-ext-yaml-front-matter</artifactId>
                 <version>${flexmark.version}</version>
-                
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>com.vladsch.flexmark</groupId>
                 <artifactId>flexmark-ext-gitlab</artifactId>
                 <version>${flexmark.version}</version>
-                
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>net.coobird</groupId>
                 <artifactId>thumbnailator</artifactId>
                 <version>${thunmnailator.version}</version>
-                
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>net.sf.image4j</groupId>
                 <artifactId>image4j</artifactId>
                 <version>${image4j.version}</version>
-                
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.flywaydb</groupId>
                 <artifactId>flyway-core</artifactId>
                 <version>${flyaway.version}</version>
-                
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>com.google.zxing</groupId>
                 <artifactId>core</artifactId>
                 <version>${zxing.version}</version>
-                
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.iq80.leveldb</groupId>
                 <artifactId>leveldb</artifactId>
                 <version>${levelDb.version}</version>
-                
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>redis.clients</groupId>
                 <artifactId>jedis</artifactId>
                 <version>${jedis.version}</version>
-                
-                <exclusions>
-                    <exclusion>
-                        <artifactId>slf4j-log4j12</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>tomcat-annotations-api</artifactId>
-                        <groupId>org.apache.tomcat</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>spring-boot-starter-tomcat</artifactId>
-                        <groupId>*</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>jboss-servlet-api_4.0_spec</artifactId>
-                        <groupId>org.jboss.spec.javax.servlet</groupId>
-                    </exclusion>
-                    <exclusion>
-                        <artifactId>commons-logging</artifactId>
-                        <groupId>commons-logging</groupId>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.projectlombok</groupId>
@@ -1422,7 +470,6 @@
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
                 <version>${mysql.connector.version}</version>
-                
             </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
@@ -1440,10 +487,19 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.6.0</version>
+                <version>3.6.1</version>
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.2</version>
+                <configuration>
+                    <skip>true</skip>
                 </configuration>
             </plugin>
         </plugins>
